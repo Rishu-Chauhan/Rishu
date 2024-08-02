@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document3</title>
+    <style>
+#key,#key1,#key2{
+    background-color:rgb(199, 166, 232);
+}
+#key3{
+    color: brown;
+    padding-left: 500px;
+}
+#key4{
+color:rgb(209, 25, 25);
+}
+    </style>
+</head>
+<body>
+    <h2 id="key3">Complex form</h2>
+    <form id="key4">
+        <fieldset id="key">
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name"><br><br>
+            <label for="email1">Email:</label>
+            <input type="text" name="email" id="email1"><br><br>
+            <label for="phone number1">Phone Number:</label>
+            <input type="tel" name="phone number" id="phone number1"><br><br>
+            <label for="date1">Date Of Birth:</label>
+            <input type="date" name="date" id="date1"><br><br>
+            <span>Gender:</span>
+            <input type="radio" name="radio" id="radio1">
+            <label for="radio1">Male</label>
+            <input type="radio" name="radio" id="radio1">
+            <label for="radio1">Female</label>
+            <input type="radio" name="radio" id="radio1">
+            <label for="radio1">Other</label><br><br>
+            <label for="country">Choose country</label>
+            <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="US">US</option>
+                <option value="canada">Canada</option>
+            </select>
+        </fieldset>
+        <fieldset id="key1">
+            <legend>Adress</legend>
+            <label for="street1">Street</label>
+            <input type="text" name="street" id="street1"><br><br>
+            <label for="city">City</label>
+            <input type="text" name="city" id="city"><br><br>
+            <label for="state">State</label>
+            <input type="text" name="state" id="state"><br><br>
+            <label for="zipcode">Zip Code</label>
+            <input type="text" name="zipcode" id="zipcode">
+        </fieldset>
+        <fieldset id="key2">
+            <legend>Other Information</legend>
+            <label for="text area1">Comments:</label>
+            <input type="text area" name="text area" id="text area1" cols="30" rows="10"><br><br>
+            <label for="terms">I agree to term of service:</label>
+            <input type="check box" name="terms" id="terms"><br><br>
+            <input type="submit" name="submit" >
+            
+            
+
+        </fieldset>
+    </form>
+</body>
+</html>

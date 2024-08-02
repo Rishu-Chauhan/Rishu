@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 100px;
+            width: 100px;
+        }
+        .container{
+            background-color: aliceblue;
+            border: 2px solid black;
+            height: 650px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .box{
+            background-color: aquamarine;
+            height: 330px;
+            width: 330px;
+            border: 1px solid brown;
+            margin: 5px;
+            padding:5px;
+            /* box-shadow: 10px 15px burlywood; */
+
+            /* box shaddow using blur radius */
+            /* box-shadow:9px 9px 6px black; */
+
+            /* spread radius */
+            box-shadow: 10px 15px 5px 30px brown;
+
+            /* inset shadow */
+            /* box-shadow:inset 10px 20px  black; */
+
+            /* ultiple shadow addingm */
+             box-shadow:10px 20px blue,20px 20px green;
+
+
+        }
+        #head1{
+            /* text-shadow: 1px 2px 4px blue; */
+
+            /* color ,x-offset,y-offset blur-radius */
+            /* text-shadow:red 4px 2px 3px; */
+
+
+           /* color ,x-offset,y-offset*/
+           /* text-shadow: blue 3px 4px ; */
+
+
+           /* x-offset,y-offset */
+           text-shadow:2px 2px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+       <img src="logo.jpg" >
+       <h2 id="head1">Welcome To My Channel</h2>
+       <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint voluptates eaque tempore 
+        modi nisi libero numquam commodi accusamus quibusdam inventore?</P>
+
+        </div>
+    </div>
+</body>
+</html>

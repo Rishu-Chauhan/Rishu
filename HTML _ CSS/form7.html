@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document4</title>
+    <style>
+        #key1{
+            color:rgb(180, 65, 65);
+        }
+        #key2{
+            padding-left: 500px;
+            color: rebeccapurple;
+        }
+        #key3{
+            background-color:rgb(137, 137, 35);
+        }
+    </style>
+</head>
+<body>
+    <h1 id="key2">Job Application</h1>
+   <fieldset id="key3">
+    <form id="key1" >
+        <fieldset  >
+         <legend><h2>Personal details</h2></legend>
+         <label for="name1">Name:</label>
+         <input type="text" name="name1" id="name1" placeholder="enter your name"><br><br>
+         <label for="email1">Email:</label>
+         <input type="text" name="email" id="email1" placeholder="enter your email id"><br><br>
+         <label for="phone">Phone No.</label>
+         <input type="tel" name="phone" id="phone" placeholder="enter your phone no."><br><br>
+         <label for="file upload">Resume:</label>
+         <input type="file" name="file upload" id="file upload"><br><br>
+        </fieldset>
+     <fieldset >
+         <legend><h2>Skills</h2></legend>
+         <label for="check box">HTML:</label>
+         <input type="checkbox" name="check box" id="check box1"><br><br>
+         <label for="check box2">CSS:</label>
+         <input type="checkbox" name="check box" id="check box2"><br><br>
+         <label for="check box3">JAVA SCRIPT:</label>
+         <input type="checkbox" name="check box" id="check box3">
+     </fieldset>
+     <fieldset >
+         <legend><h2>Educational Details</h2></legend>
+         
+            <select name="education type" id="education">
+             <option value="high school">High School</option>
+             <option value="enter ">Enter</option>
+             <option value="bachalor">Bachalor  Degree</option>
+             <option value="phd">PHD</option>
+            </select>
+         
+     </fieldset>
+     <fieldset >
+         <legend><h2>Availability</h2></legend>
+         <label for="radio1">Full-Time</label>
+         <input type="radio" name="radio" id="radio1">
+         <label for="radio2">Part-Time</label>
+         <input type="radio" name="radio" id="radio2">
+     </fieldset>
+     <label for="textarea1" >Addition Comments:</label><br>
+     <input type="textarea" name="textarea" id="textarea1" cols="30" rows="10"><br><br>
+     <input type="submit" value="submit Application">
+        </form>
+   </fieldset>
+</body>
+</html>

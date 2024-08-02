@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project1</title>
+    <style>
+        #new{
+            background-color: rgba(59, 228, 228, 0.452);
+        }
+       #new1{
+        color: brown;
+       }
+    </style>
+</head>
+<body>
+    
+    <form>
+       <fieldset id="new">
+        <legend><h2 id="new1">Event Registraion</h2></legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <br><br>
+        <label for="email1">email:</label>
+        <input type="text" name="email" id="email1">
+        <br><br>
+        <label for="phoneNumber">Phone No.</label>
+        <input type="tel" name="phoneNumber1" id="phoneNumber">
+        <br><br>
+        <label for="occupationType">Occupation:</label>
+        <select name="occupationType" id="occupationType">
+        <option value="student">student</option>
+        <option value="professional">professional</option>
+        <option value="other">other</option>
+        </select><br><br>
+        <fieldset >
+            <legend>Topic of Interest</legend>
+            <label for="checkbox1">HTML</label>
+          <input type="checkbox" name="checkbox" id="checkbox1">
+          <br>
+          <label for="checkbox2">CSS</label>
+          <input type="checkbox" name="checkbox2" id="checkbox2">
+
+          <br>
+          <label for="checkbox3">JAVA SCRIPT</label>
+          <input type="checkbox" name="checkbox3" id="checkbox3">
+        </fieldset>
+        <label for="textarea1">COMMENT</label><br>
+        <textarea name="textarea1" id="textarea1" cols="30" rows="4"></textarea>
+        <input type="submit" value="Resister">
+       </fieldset>
+    </form>
+</body>
+</html>
